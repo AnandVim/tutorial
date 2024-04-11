@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+body{
+ background-color:black;    
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 28px;
+}
+li{
+    list-style: none;
+    
+}
+.span1{
+    color: #fdcb6e;
+}
+.seud{
+    color:#fdcb6e;
+}
+.button-1{
+    color:white;
+}
+.button-2{
+    color:white;
+    background-color: #fdcb6e;
+}
+.button-4{
+    color:white;
+    background-color: #7f8fa6;
+    display: block;
+    width: 100%;
+}
+
+.navbar-toggler-icon{
+    color:white;
+}
+.span2{
+    color:white;
+}
+/*section-1*/
+.section-1{
+    background-image: url('https://images.pexels.com/photos/5288701/pexels-photo-5288701.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+hr:not([size]){
+    height: 6px;
+    margin: 14px;
+    width: 80%;
+    opacity: 0.4;
+}
+.back1{
+    background:url('https://s7ap1.scene7.com/is/image/tatamotors/ElectricSunroofwithTiltfunction-0?$IS-1020-555-D$&fit=crop&fmt=webp');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back3{
+    background:url('https://static-assets.tesla.com/configurator/compositor?context=design_studio_2&options=$INPW0,$PMNG,$DV2W&view=STUD_SEAT&model=my&size=1441&bkba_opt=2&crop=0,0,0,0&');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.back2{
+    background:url('https://s7ap1.scene7.com/is/image/tatamotors/two-spoke-steering-wheel?$TT-614-400-D$&fit=crop&fmt=webp');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.sec-2{
+    display: flex;
+
+}
+.sec-2 li i{
+    padding: 10px;
+}
+.sec-2 li i{
+    font-size: 80px;
+}
+
+.sec-2 li{
+    list-style-type: none;
+    padding: 90px;
+}
+.sec-2 li a{
+    text-decoration: none;
+}
+
+/*section-3*/
+
+.para{
+    margin-top: 100px;
+}
+/*footer section*/
+.footer-1{
+    padding: 10px;
+}
+
+.ulfooter{
+    display: flex;
+}
+.ulfooter li{
+    list-style: none;
+    margin-top: 15px;
+}
+.ulfooter a{
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+.ulfooter-link1 i{
+    font-size: 40px;
+    color:blue;
+}
+.ulfooter-link2 i{
+    font-size: 40px;
+    color:red;
+}
+.our{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    background-color: #2f3640;
+}
+
+.footer-2{
+    padding: 10px;
+}
+.footer-2 li{
+    list-style: none;
+}
+@media screen and (max-width:1215px) {
+    .sec-2 li i{
+        font-size: 75px;
+    }
+    
+    .sec-2 li{
+        list-style-type: none;
+        padding: 75px;
+    }
+    
+}
+@media screen and (max-width:825px) {
+    .sec-2 li{
+        list-style-type: none;
+        padding: 71px;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    
+
+.sec-2 li{
+    list-style-type: none;
+    padding: 60px;
+}
+.sec-2 li a{
+    text-decoration: none;
+}
+.sec-2 li i{
+    font-size: 60px;
+}
+}
+
+@media screen and (max-width:960px) {
+    .non-2{
+        display:none;
+    }
+    .sec-2 li i{
+        font-size: 50px;
+    }
+    
+}
+@media screen and  {
+    
+}
+@media screen and (max-width:768px) {
+    *{
+        font-size: 1.08rem;
+    }
+    .vision{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .pos{
+        position: relative;
+    }
+    .sec-1{
+        position: absolute;
+        top:0%;
+        left:0%;
+        width: 80%;
+        height: 80%;
+    }   
+.sec-2 li{
+    list-style-type: none;
+    padding: 30px;
+    
+}
+.sec-2 li i{
+    font-size: 40px;
+}
+.sec-2 li a{
+    text-decoration: none;
+}
+.li5{
+    padding: 15px;
+    margin:0 60px 0 15px;
+}
+.li6{
+    padding: 15px;
+    margin:0 60px;
+}
+
+.li7{
+    padding: 15px;
+    margin:0 60px;
+}
+
+.li8{
+    padding: 15px;
+    margin:0 60px;
+}
+.para{
+    margin-top: 20px;
+}
+.non-2{
+    display:none;
+}
+}
+
+@media screen and (max-width:500px){
+    .sec-2 li{
+        padding: 20px;
+    }
+    *{
+        font-size: 1.01rem;
+    }
+}
+
+@media screen and (max-width:428px) {
+    
+    .sec-2 li i{
+        font-size: 30px;
+    }
+    .sec-2 li{
+        list-style-type: none;
+        padding: 9px;
+    }
+    .sec-2 li a{
+        text-decoration: none;
+    }
+   
+    .parent-1{
+        position: relative;
+    }
+    .child-1{
+        position: absolute;
+        top:2%;
+        left:2%;
+    }
+    .child-11{
+        position: absolute;
+        top:4%;
+        left:2%;
+    }
+    .parent-2{
+        position: relative;
+    }
+    .child-2{
+        position: absolute;
+        top:2%;
+        left:2%;
+    }
+    .child-22{
+        position: absolute;
+        top:4%;
+        left:2%;
+    }
+    .parent-3{
+        position: relative;
+    }
+    .child-3{
+        position: absolute;
+        top:2%;
+        left:2%;
+    }
+    .child-33{
+        position: absolute;
+        top:4%;
+        left:2%;
+    }
+    .para{
+        margin-top: 40px;
+    }
+    .li8{
+        padding: 5px;
+        margin:0 10px;
+    }   
+    .ulfooter a{
+        text-decoration: none;
+        margin-top: 20px;
+        padding: 5px;
+    }
+    .non-1{
+        display: none;
+    }
+    .non-11{
+        display: flex;
+        flex-direction: column;
+    }
+    .void{
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .sec-2 li i{
+        font-size: 30px;
+    }
+    .sec-2 li{
+        list-style-type: none;
+        padding: 5px;
+    }
+}
